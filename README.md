@@ -1,1 +1,1 @@
-This game has made by @rickkque in 2021.
+This game has made by @rickkque © in 2021.
