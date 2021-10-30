@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puc Memory Game - Rick</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <div class="navbar">
+      <h2 class="title">PUC Memory Game - By @rickkque</h2>
+      <input id="reloadBtn" class="btnRl" type="button" value="Restart" onclick="reload()">
+    </div>
+
+    <div class="scoreboard">
+      <p class="txtTS">Score:</p>
+      <input type="number" id="score" value="0" readonly disabled>
+      <p class="txtTS">Time:</p>
+      <span id="time">00:00</span>
+    </div>
+
+    <section class="game">
+      <div class="carta" data-framework="dice">
+        <img class="frente" src="./img/005-dice.svg" alt="Frente Carta - dice">
+        <img class="verso" src="./img/logo-puc-minas.svg" alt="Verso Carta - Logo PUC">
+      </div>
+
+      <div class="carta" data-framework="dice">
+        <img class="frente" src="./img/005-dice.svg" alt="Frente Carta - dice">
+        <img class="verso" src="./img/logo-puc-minas.svg" alt="Verso Carta - Logo PUC">
+      </div>
+
+      <div class="carta" data-framework="compass">
+        <img class="frente" src="./img/027-compass.svg" alt="Frente Carta - compass">
+        <img class="verso" src="./img/logo-puc-minas.svg" alt="Verso Carta - Logo PUC">
+      </div>
+
+      <div class="carta" data-framework="compass">
+        <img class="frente" src="./img/027-compass.svg" alt="Frente Carta - compass">
+        <img class="verso" src="./img/logo-puc-minas.svg" alt="Verso Carta - Logo PUC">
+      </div>
+
+      <div class="carta" data-framework="grouptheory">
+        <img class="frente" src="./img/029-grouptheory.svg" alt="Frente Carta - grouptheory">
+        <img class="verso" src="./img/logo-puc-minas.svg" alt="Verso Carta - Logo PUC">
+      </div>
+
+      <div class="carta" data-framework="grouptheory">
+        <img class="frente" src="./img/029-grouptheory.svg" alt="Frente Carta - grouptheory">
+        <img class="verso" src="./img/logo-puc-minas.svg" alt="Verso Carta - Logo PUC">
+      </div>
+
+      <div class="carta" data-framework="function">
+        <img class="frente" src="./img/033-function.svg" alt="Frente Carta - function">
+        <img class="verso" src="./img/logo-puc-minas.svg" alt="Verso Carta - Logo PUC">
+      </div>
+
+      <div class="carta" data-framework="function">
+        <img class="frente" src="./img/033-function.svg" alt="Frente Carta - function">
+        <img class="verso" src="./img/logo-puc-minas.svg" alt="Verso Carta - Logo PUC">
+      </div>
+
+      <div class="carta" data-framework="fractal">
+        <img class="frente" src="./img/037-fractal.svg" alt="Frente Carta - fractal">
+        <img class="verso" src="./img/logo-puc-minas.svg" alt="Verso Carta - Logo PUC">
+      </div>
+
+      <div class="carta" data-framework="fractal">
+        <img class="frente" src="./img/037-fractal.svg" alt="Frente Carta - fractal">
+        <img class="verso" src="./img/logo-puc-minas.svg" alt="Verso Carta - Logo PUC">
+      </div>
+
+      <div class="carta" data-framework="infinity">
+        <img class="frente" src="./img/047-infinity.svg" alt="Frente Carta - infinity">
+        <img class="verso" src="./img/logo-puc-minas.svg" alt="Verso Carta - Logo PUC">
+      </div>
+
+      <div class="carta" data-framework="infinity">
+        <img class="frente" src="./img/047-infinity.svg" alt="Frente Carta - infinity">
+        <img class="verso" src="./img/logo-puc-minas.svg" alt="Verso Carta - Logo PUC">
+      </div>
+    </section>
+    
+    <script src="scripts.js"></script>
+  </body>
+</html>
